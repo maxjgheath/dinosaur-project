@@ -1,0 +1,13 @@
+@media all and (max-width: 648px) {
+    header { 
+        padding: 0.25em;
+    } nav a {
+        padding: 0.5em;
+        font-size: 1em;
+    } article {
+        flex-direction: column;
+        padding: 0.25em;
+    } footer {
+        padding: 0.25em;
+    }
+}

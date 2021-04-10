@@ -1,0 +1,17 @@
+@media all and (max-width: 500px) {
+    header {
+        padding: 0em;
+    } nav {
+        flex-direction: column;
+    } nav a {
+        width: 100%;
+    } article {
+        flex-direction: column;
+        padding: 0em;
+    } figure {
+        width: 100%;
+        border-width: 1em 0em 1em 0em;
+    } footer {
+        padding: 0em;
+    }
+}

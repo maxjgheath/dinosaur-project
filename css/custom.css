@@ -1,0 +1,68 @@
+:root {
+    --primary-accent-color: rgba(143, 188, 143, 85%);
+    --secondary-accent-color: burlywood;
+    --tertiary-accent-color: salmon;
+    --quaternary-accent-color: darkolivegreen;
+    
+} body {
+    font-family: Georgia, serif;
+    background-image: url("../images/green-leaves-background.jpg");
+    margin: 1em;
+} header {
+    background-color: var(--primary-accent-color);
+    padding: 0.5em;
+} nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+} nav a {
+    background-color: var(--secondary-accent-color);
+    word-break: normal;
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+    padding: 1em;
+    font-size: 1.25em;
+    color: var(--quaternary-accent-color);
+} nav a:hover {
+    text-decoration: underline;
+} .activePage {
+    background-color: var(--quaternary-accent-color);
+    color: var(--secondary-accent-color);
+} main {
+    background-color: var(--primary-accent-color);
+    padding: 1em;
+} article {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+} section {
+    margin: 1em;
+} figure {
+    margin: auto;
+    padding: 1em;
+    border: 1em solid var(--tertiary-accent-color);
+} picture {
+    margin: auto;
+} img {
+    margin: auto;
+} table {
+    margin: auto;
+    border: 0.5em solid var(--tertiary-accent-color);
+    border-collapse: collapse;
+} th {
+    border: 0.5em solid var(--tertiary-accent-color);
+    padding: 1em;
+} td {
+    border: 0.5em solid var(--tertiary-accent-color);
+    padding: 1em;
+} a {
+    word-break: break-all;
+} p {
+    max-width: 45em;
+} cite, figcaption, ul, li {
+    max-width: 45em;
+} footer {
+    background-color: var(--primary-accent-color);
+    padding: 0.5em;
+}
